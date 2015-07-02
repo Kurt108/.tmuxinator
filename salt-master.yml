@@ -36,7 +36,6 @@ windows:
           - vagrant ssh
           - sudo su
           - tail -f /var/log/salt/master
-  - shell:
-      - box:
-        - vagrant ssh
-        - sudo su
+  - box:
+      - vagrant ssh
+      - sudo su
